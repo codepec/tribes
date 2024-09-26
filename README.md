@@ -18,10 +18,10 @@
    ```bash
    git clone https://github.com/codepec/tribes.git
 
-2. **Open in Browser: Navigate to the cloned repository folder and open the index.html file in your preferred web browser.
+2. **Open in Browser**: Navigate to the cloned repository folder and open the index.html file in your preferred web browser.
 
-Game Page
+## Game Page
 
-You can play the latest version of Tribes online. Visit the following page: [Tribes on GitHub Pages](https://codepec.github.io/tribes/index.html).
+You can play the latest version of Tribes online. Visit the following page: **[Tribes on GitHub Pages](https://codepec.github.io/tribes/index.html)**.
 
 Have fun exploring, building, and developing your own civilization in Tribes! Overcome the challenges of the game and lead your people to success!
