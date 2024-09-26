@@ -1,0 +1,41 @@
+<!--index.html-->
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Browserspiel - Zeitalter der Eroberer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="container">
+        <h1>Zeitalter der Eroberer</h1>
+        <h3>Erschaffe Dein Imperium</h3>
+        <button id="savegameButton">Speichern</button>
+        <div id="start-time-container">
+            <p id="start-time-display"></p> <!-- Hier wird die Startzeit angezeigt -->
+        </div>
+    </div>
+    <div id="resources">
+        <p id="resource-details"></p>
+    </div>
+
+    <div id="map"></div>
+    <div id="dashboard">
+        <h2>Gebäude</h2>
+        <button id="build-farm">Bauernhof bauen</button>
+        <button id="build-barracks">Kaserne bauen</button>
+        <button id="build-researchCenter">Forschungsgebäude bauen</button>
+        <button id="build-storage">Lager bauen</button>
+        <button id="build-vehicleWorkshop">Fahrzeugwerkstätte bauen</button>
+       
+    </div>
+
+    <script src="buildings.js"></script>
+    <script src="game.js"></script>
+    <script src="resources.js"></script>
+    <script src="indexeddb.js"></script>
+</body>
+</html>

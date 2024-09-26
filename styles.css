@@ -1,0 +1,107 @@
+/* styles.css */
+
+
+/* styles.css */
+
+/* Grundlegende Einstellungen */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FAF8EF;
+    margin: 0;
+    padding: 10px;
+    color: #333;
+    text-align: center; /* Zentriert den Text */
+}
+
+/* Titel */
+h1 {
+    font-size: 1.2em;  /* Kleinere Schriftgröße */
+    color: #4CAF50;
+    margin: 5px 0; /* Weniger Abstand */
+}
+
+h3 {
+    font-size: 1em;  /* Noch kleinere Schriftgröße */
+    margin: 5px 0; /* Weniger Abstand */
+}
+
+/* Schaltflächen */
+button {
+    padding: 5px 8px; /* Kleinere Schaltflächen */
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 5px 0; /* Weniger Abstand */
+    font-size: 0.9em; /* Kleinere Schriftgröße */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Startzeit Anzeige */
+#start-time-container {
+    margin-top: 10px;
+}
+
+#start-time-display {
+    font-size: 0.8em; /* Kleinere Schriftgröße */
+    color: #777; /* Hellerer Text für weniger Aufmerksamkeit */
+}
+
+
+
+
+/* Map Container */
+#map {
+    width: 100%; /* Volle Breite */
+    max-width: 600px; /* Maximale Breite */
+    height: 300px; /* Kleinere Höhe */
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    background-color: #EDE7E3;
+    margin: 0 auto 20px;
+}
+
+/* Dashboard Container */
+#dashboard {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px; /* Weniger Innenabstand */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Ressourcen Anzeige */
+.resources {
+    display: flex;
+    justify-content: space-around; /* Gleichmäßige Verteilung */
+    margin: 10px 0;
+}
+
+#resource-details{
+    font-weight: 600;
+    background-color:#45a049;
+    padding:25px;
+    border-radius: 15px;
+    margin: 0 10px;
+    margin-bottom: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    body {
+        padding: 5px; /* Weniger Padding auf mobilen Geräten */
+    }
+
+    #map {
+        height: 250px; /* Kleinere Höhe auf mobilen Geräten */
+    }
+
+    button {
+        padding: 6px 10px; /* Kleinere Schaltflächen auf mobilen Geräten */
+        font-size: 14px; /* Kleinere Schriftgröße */
+    }
+}
