@@ -22,6 +22,6 @@
 
 Game Page
 
-You can play the latest version of Tribes online. Visit the following page: Tribes on GitHub Pages.
+You can play the latest version of Tribes online. Visit the following page: [Tribes on GitHub Pages](https://codepec.github.io/tribes/index.html).
 
 Have fun exploring, building, and developing your own civilization in Tribes! Overcome the challenges of the game and lead your people to success!
